@@ -35,6 +35,14 @@
     background-color: var(--background-main);
 }
 
+.nome__perfil {    
+    padding: 3rem;
+}
+
+.nome__perfil h1 {
+    font-weight: 700;
+}
+
 .titulo__section {
     font-weight: 700;
 }

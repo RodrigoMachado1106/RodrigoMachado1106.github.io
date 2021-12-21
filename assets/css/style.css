@@ -30,28 +30,34 @@
     display:inline-flex;
     flex-direction: column;
     float: left;
-    padding: 2rem 4rem;
+    padding: 1rem 1rem;
     color: var(--cinza-escuro);
-    background-color: var(--background-main);
 }
 
 .nome__perfil {    
     padding: 3rem;
 }
 
+
 .nome__perfil h1 {
     font-weight: 700;
 }
 
-.titulo__section {
-    font-weight: 700;
+.conteudo__perfil {
+    float: left;
+    width: 71%;
+    font-size: 1.5rem;
 }
 
-.principal p {
-    float: left;
-    width: 60%;
-    font-size: 1.5rem;
-    clear: both;
+.conteudo__perfil p {
+    padding: .5rem;
+}
+
+
+
+.titulo__section {
+    font-weight: 700;
+    padding-top: 2rem;
 }
 
 .container__img__perfil {
@@ -65,7 +71,7 @@
 .img__perfil {
     width: 100%;
     border-radius: 100%;
-    padding: 10px;
+    padding: 2rem;
 }
 
 /*Contato*/
@@ -76,17 +82,26 @@
 
 .contato {
     font-weight: 700;
-    padding: 1rem;
+    padding: .5rem;
+}
+
+.conteudo__contato {
+    padding: .25rem;
 }
 
 .contato a {
-    text-decoration: underline;
     color: var(--cinza-escuro);
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
 }
 
 .contato span  {
     padding: .5rem;
 }
+
 
 
 

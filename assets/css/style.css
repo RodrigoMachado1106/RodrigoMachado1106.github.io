@@ -42,6 +42,7 @@
 .desc__perfil {
     width: 71%;
     font-size: 1.5rem;
+    box-sizing: border-box;
 }
 
 .conteudo__perfil p {
@@ -50,15 +51,14 @@
 
 .titulo__section {
     font-weight: 700;
-    padding: 2rem .5rem .5rem;
-    
-
+    padding: 2rem 0 .5rem;
 }
 
 .container__img__perfil {
-    width: 250px;
+    width: 25rem;
     height: auto;
     float: right;
+    margin-top: 0px;
 }
 
 
@@ -82,6 +82,7 @@
 
 .conteudo__contato {
     padding: .25rem;
+    box-sizing: border-box;
 }
 
 .contato a {

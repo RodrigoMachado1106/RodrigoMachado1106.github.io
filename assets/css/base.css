@@ -9,7 +9,7 @@
 
 body {
     color: var(--branco-font);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     background-color: var(--background-main) !important;
     font-size: 1rem;
 }

@@ -4,7 +4,8 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    background-color: var(--background-cabecalho);
+    background: var(--background);
+    padding: 1rem;
 }
 
 .cabecalho__titulo {
@@ -15,19 +16,19 @@
 }
 
 .cabecalho .navbar {
-    background-color: var(--background-cabecalho) !important;
+    background: var(--background);
     width: 100%;
-    color: var(--branco-font) !important;
+    color: var(--cor-font) !important;
 }
 
 .nav-link {
-    color: var(--branco-font) !important;
+    color: var(--cor-font) !important;
 }
 
 /* Perfil */
 .principal {
     flex-direction: column;
-    color: var(--cinza-escuro);
+    color: var(--cor-font);
 }
 
 .nome__perfil {    
@@ -65,6 +66,7 @@
 .img__perfil {
     width: 100%;
     border-radius: 100%;
+    border: 2px solid var(--botao-card-hover);
     padding: 2rem .5rem;
 }
 
@@ -86,7 +88,7 @@
 }
 
 .contato a {
-    color: var(--cinza-escuro);
+    color: var(--branco-font);
     text-decoration: none;
 }
 
@@ -123,13 +125,55 @@
     height: 1rem;
 }
 
+/*Trabalhos em destaque*/
+.conteudo__trabalho h2 {
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #726868 0, #6c5f5f 50%, #665656 100%);
+    color: var(--cor-font);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+    top: -6px;
+}
+
+.botao {
+    background-color: var(--background-botao-card);
+    color: #2F2325;
+    border-color: var(--botao-card-hover);
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: var(--botao-card-hover) !important;
+    border-color: var(--botao-card-hover);
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+
+
+
 /*Footer*/
 
 .rodape {
     margin-top: 3rem;
-    padding: 1.5rem;
-    background-color: #1E1E2A;
+    padding: 1rem;
+    background: var(--background);
+    color: var(--cor-font);
 }
+
+.rodape p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 770px) {
     .principal {
@@ -162,6 +206,7 @@
         display: block;
         text-align: center;
     }
+
 }
 
 

@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;700;800&display=swap');
 :root {
-    --branco-font: #f0f8ff;
-    --cinza-escuro: #4F4C4C;
-    --background-cabecalho: #1e1e2a; 
-    --background-main: #D6D6D6;
-    --poppins: 'Poppins', sans-serif;  
+    --cor-font: #FFF2E7;
+    --background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    --poppins: 'Poppins', sans-serif;
+    --background-car: linear-gradient(135deg, #726868 0, #6c5f5f 50%, #665656 100%); 
+    --background-botao-card: #ECD6C4;
+    --botao-card-hover: #8e5d52
 }
 
 body {
-    color: var(--branco-font);
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
     font-family: 'Poppins', sans-serif !important;
-    background-color: var(--background-main) !important;
+    background-color: var(--background-cabecalho) !important;
     font-size: 1rem;
 }
 

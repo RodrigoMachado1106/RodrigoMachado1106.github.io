@@ -98,6 +98,30 @@
     padding: .5rem;
 }
 
+/*Skills*/
+.desc__skill{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: .5rem;
+    padding: .2rem;
+}
+
+.container__progresso {
+    padding: 10px;
+}
+
+.barra__progresso {
+    height: 1rem;
+}
+
+/*Footer*/
+
+.rodape {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: #1E1E2A;
+}
+
 @media screen and (max-width: 770px) {
     .principal {
         align-items: center;

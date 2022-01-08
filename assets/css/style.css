@@ -99,6 +99,14 @@
 }
 
 /*Skills*/
+
+.skills {
+    align-items: center;
+}
+
+.skills h2 {
+    text-align: center;
+}
 .desc__skill{
     font-size: 1rem;
     font-weight: 700;
@@ -108,6 +116,7 @@
 
 .container__progresso {
     padding: 10px;
+    margin: 0 auto;
 }
 
 .barra__progresso {

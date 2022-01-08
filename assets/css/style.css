@@ -207,6 +207,10 @@
         text-align: center;
     }
 
+    .card {
+        margin: .5rem auto;
+    }
+
 }
 
 

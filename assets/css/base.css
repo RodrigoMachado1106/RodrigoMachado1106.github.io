@@ -5,7 +5,7 @@
     --poppins: 'Poppins', sans-serif;
     --background-car: linear-gradient(135deg, #726868 0, #6c5f5f 50%, #665656 100%); 
     --background-botao-card: #ECD6C4;
-    --botao-card-hover: #8e5d52
+    --botao-card-hover: #8e5d52;
 }
 
 body {

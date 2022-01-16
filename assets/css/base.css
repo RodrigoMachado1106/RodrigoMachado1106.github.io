@@ -6,13 +6,58 @@
     --background-card: linear-gradient(135deg, #726868 0, #6c5f5f 50%, #665656 100%); 
     --background-botao-card: #ECD6C4;
     --botao-card-hover: #8e5d52;
+    --background-card-blog: #66453e;
+}
+
+html {
+    scroll-behavior: smooth;
+    
 }
 
 body {
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
     font-family: 'Poppins', sans-serif !important;
-    background-color: var(--background-cabecalho) !important;
     font-size: 1rem;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+    padding: 1rem;
+}
+
+.cabecalho__titulo {
+    text-align: center;
+    padding: 1.5rem 3rem;
+    align-items: center;
+    color: var(--cor-font);
+}
+
+.cabecalho .navbar {
+    background: var(--background);
+    width: 100%;
+    color: var(--cor-font) !important;
+}
+
+.nav-link {
+    color: var(--cor-font) !important;
+}
+
+/*Footer*/
+.rodape {
+    margin-top: 3rem;
+    padding: 1rem;
+    background: var(--background);
+    color: var(--cor-font) !important;
+}
+
+.rodape p {
+    margin-top: 1rem;
+    text-align: center;
 }
 
 

@@ -1,0 +1,52 @@
+main {
+    padding: 1.25rem;
+}
+.titulo__blog {
+    padding: 1.875rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--cor-font);
+}
+
+.titulo__blog h1 {
+    font-weight: 800 !important;
+    font-family: 'Poppins', sans-serif !important
+}
+
+.conteudo__cards {
+    background: var(--background-card-blog);
+    color: var(--cor-font);
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.column__esquerda {
+  float: left;
+  width: 75%;
+}
+
+.column_direita {
+    float: left;
+    width: 25%;
+    padding-left: 1.25rem;
+}
+
+.card__rede__social a {
+    padding: .25rem;
+}
+
+.link__rede__social {
+    text-decoration: none;
+    color: var(--cor-font) !important;
+}
+
+.link__rede__social:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .column__esquerda, .column_direita {
+      width: 100%;
+      padding: 0;
+    }
+  }

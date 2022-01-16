@@ -1,30 +1,3 @@
-/* Cabeçalho */
-.cabecalho {
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    background: var(--background);
-    padding: 1rem;
-}
-
-.cabecalho__titulo {
-    text-align: center;
-    padding: 1.5rem 3rem;
-    align-items: center;
-    color: var(--branco-font);
-}
-
-.cabecalho .navbar {
-    background: var(--background);
-    width: 100%;
-    color: var(--cor-font) !important;
-}
-
-.nav-link {
-    color: var(--cor-font) !important;
-}
-
 /* Perfil */
 .principal {
     flex-direction: column;
@@ -149,6 +122,11 @@
     color: #2F2325;
     border-color: var(--botao-card-hover);
     border-radius: 10px;
+    margin-left: 80px;
+}
+
+#botao2 {
+    margin-left: 0;
 }
 
 .botao:hover {
@@ -159,21 +137,6 @@
 .card img {
     border-radius: 10px;
 }
-
-/*Footer*/
-
-.rodape {
-    margin-top: 3rem;
-    padding: 1rem;
-    background: var(--background);
-    color: var(--cor-font);
-}
-
-.rodape p {
-    margin-top: 1rem;
-    text-align: center;
-}
-
 
 @media screen and (max-width: 770px) {
     .principal {

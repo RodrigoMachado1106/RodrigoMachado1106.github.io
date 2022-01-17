@@ -1,0 +1,103 @@
+body {
+    font-size: 14px;
+}
+
+main {
+    padding: 100px;
+}
+
+.titulo__form {
+    height: 6.875rem;
+    border: 1px solid;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.titulo__form h1 {
+    margin: auto auto;
+}
+
+
+form h5 {
+    text-align: center;
+}
+
+
+fieldset {
+    border: 1px solid #989898;
+    border-radius: 10px; 
+}
+
+
+.botao__del {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.container__botao {
+    width: 50px;
+    display: flex;
+}
+
+.cabecalho__despesas {
+    text-align: center;
+}
+
+.cabecalho__despesas button {
+   justify-content: end;
+    width: 100px;
+}
+
+.conteudo__despesas {
+    text-align: center;
+}
+
+
+.conteudo__despesas input, select, option {
+    border-radius: 10px !important;
+}
+
+.row__despesas {
+    margin: 0 auto;
+}
+
+.total {
+    float: right;
+    padding: 2rem;
+    justify-content: end;
+}
+
+.total label {
+    width: 10rem;
+    text-align: end;
+    font-size: 24px;
+}
+
+.total input {
+    width: 10rem;
+    border-radius: 10px;
+}
+
+.rodape {
+    margin-top: 3rem;
+    padding: 1rem;
+    background: var(--background);
+    color: var(--cor-font) !important;
+}
+
+.rodape p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+      width: 100%;
+      padding: 1rem;
+    }
+
+    .row__despesas {
+        display: block;
+    }
+  }

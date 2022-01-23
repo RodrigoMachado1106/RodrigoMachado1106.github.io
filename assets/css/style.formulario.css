@@ -35,6 +35,10 @@ fieldset {
     margin-left: 10px;
 }
 
+.botao__svg {
+    border: none;
+}
+
 .container__botao {
     width: 50px;
     display: flex;
@@ -54,28 +58,51 @@ fieldset {
 }
 
 
-.conteudo__despesas input, select, option {
+.conteudo__despesa input, select, option {
     border-radius: 10px !important;
-}
-
-.row__despesas {
-    margin: 0 auto;
+    border: 1px solid #989898;
 }
 
 .total {
-    float: right;
     padding: 2rem;
+    display: flex;
     justify-content: end;
 }
 
 .total label {
     width: 10rem;
-    text-align: end;
     font-size: 24px;
 }
 
 .total input {
     width: 10rem;
+    border-radius: 10px;
+}
+
+.acoes {
+    border: 1px solid #989898;
+    border-radius: 10px;
+}
+
+.acoes button {
+    margin: .5rem ;
+    font-size: 1.5rem; 
+    width: 13rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.acoes h2 {
+    margin: auto auto;
+}
+
+.texto__acao {
+    margin: auto auto;
+}
+
+.botao__acao {
+    border: 1px solid #989898;
+    border-right: none;
     border-radius: 10px;
 }
 
@@ -99,5 +126,13 @@ fieldset {
 
     .row__despesas {
         display: block;
+    }
+
+    .acoes {
+        display: block;
+    }
+
+    .botao__acao {
+        border: none;
     }
   }

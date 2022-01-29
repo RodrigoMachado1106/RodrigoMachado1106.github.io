@@ -9,5 +9,5 @@ $(document).on('click', '#tabela tbody tr', function(){
 // Aponta para a nova class adicionada ao botão "SIM" do modal
 $('.excluir-trigger').on('click', function(){
     // Aqui remove a linha referida
-    $thatRow.remove(); // ou usando remove() do jQuery dependendo do que queira
+    $thatRow.remove(); 
 });

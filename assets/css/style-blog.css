@@ -44,6 +44,18 @@ main {
     text-decoration: underline;
 }
 
+.botao {
+    background-color: var(--background-botao-card);
+    color: #2F2325 !important;
+    border-color: var(--botao-card-hover);
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: var(--botao-card-hover) !important;
+    border-color: var(--botao-card-hover);
+}
+
 @media screen and (max-width: 800px) {
     .column__esquerda, .column_direita {
       width: 100%;

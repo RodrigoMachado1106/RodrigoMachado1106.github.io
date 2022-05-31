@@ -25,6 +25,7 @@ main {
   width: 75%;
 }
 
+
 .column_direita {
     float: left;
     width: 25%;
@@ -60,5 +61,9 @@ main {
     .column__esquerda, .column_direita {
       width: 100%;
       padding: 0;
+    }
+
+    .fakeimg { 
+        width: 100%;
     }
   }
